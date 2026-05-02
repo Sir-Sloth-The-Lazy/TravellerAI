@@ -1,6 +1,6 @@
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
-from src.tools.tavily_tool import travily_search_tool
+from src.tools.tavily_tool import tavily_search_tool
 from src.config.config import GROQ_API_KEY
 from src.utils.logger import get_logger
 
@@ -33,7 +33,7 @@ City , Number of Days , Interest , Travel Style , Pace
 """
 agent = create_agent(
     model=model,
-    tools=[travily_search_tool],
+    tools=[tavily_search_tool],
     system_prompt=SYSTEM_PROMPT.strip()
 )
 logger.info("Travel Agent created successfully !")
