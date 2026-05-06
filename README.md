@@ -12,6 +12,8 @@
 
 An agentic AI application that generates detailed, personalised day-by-day travel itineraries using a **Groq-powered Llama 3.3 70B** model augmented with **real-time web search** via Tavily. Users provide their destination, trip duration, interests, travel style, pace, and preferred month — the agent handles the rest.
 
+This is work under progress ⚠️
+
 ---
 
 ## Features
